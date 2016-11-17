@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hanshu</title>
+</head>
+<body>
+    <script>
+    window.onload=function(){
+        //定义输入商品的单价
+        var price = parseInt(prompt('请输入商品的单价'));
+        //定义输入的商品数量
+        var num=parseInt(prompt('请输入商品的数量'));
+        //定义输出的收款金额
+        var money = parseInt(prompt('请输入收款金额'));
+        //商品的总价
+        var sum = price*num;
+        //var sumAfter;
+        //找零
+        var diff=money-sum;
+        //alert('商品的总价'+sum);
+        if(isNaN(price||num||money)){
+            alert('请输入数字');
+            if(sum>=500){
+            sum=sum*0.8;
+            diff=money-sum;
+            alert("商品打折后的价格"+sum);
+        }else{
+            alert('商品的总价'+sum);
+        }
+            alert('找零'+diff);
+        }
+        
+   } 
+    </script>
+</body>
+</html>
