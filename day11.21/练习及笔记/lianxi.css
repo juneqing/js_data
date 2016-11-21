@@ -1,0 +1,175 @@
+body{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #1e3948;
+    background-color: #f5f8fa;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.gb{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ut{
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+.ut .uu, .ut .uv {
+    display: table-cell;
+    vertical-align: middle;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+.l img {
+    width: 100%;
+}
+.j {
+    max-width: 280px;
+    margin-top: -60px;
+}
+.alq {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.dj {
+    text-align: center;
+}
+.l {
+    width: 40%;
+    display: inline-block;
+}
+.amb {
+    margin-bottom: 60px !important;
+}
+a {
+    color: #3097d1;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.et {
+    margin-bottom: 15px;
+}
+.form-control {
+    transition: none;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #536570;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #d4dbe0;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.alu {
+    margin-bottom: 30px !important;
+}
+.amb {
+    margin-bottom: 60px !important;
+}
+.cg {
+    font-size: 14px;
+    text-transform: default;
+    letter-spacing: none;
+}
+.fp {
+    color: #ffffff;
+    background-color: #3097d1;
+    border-color: #2a88bd;
+}
+.cg {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input, button{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input:not([type]), input[type="email" ], input[type="number" ], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+}
+user agent stylesheet
+input[type="password" ] {
+    -webkit-text-security: disc;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+input, button{
+    -webkit-writing-mode: horizontal-tb;
+}
+.dp {
+    color: #9da9b0;
+}
